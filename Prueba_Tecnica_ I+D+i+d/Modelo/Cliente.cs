@@ -2,7 +2,7 @@
 {
         public class Cliente
     {
-        public required int Identificacion { get; set; }
+        public required int ClienteId { get; set; }
         public required string Nombre { get; set; }
         public string? Correo { get; set; }
 
